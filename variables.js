@@ -18,6 +18,8 @@ let xOff = 0, yOff = 0,
     grid = true;
 // Cells
 let alive = new quadTree();
+let memo = {};
+let N = 0;
 // Mouse
 let draggingmouse=false;
 let mbutton=-1;
