@@ -17,8 +17,7 @@ let xOff = 0, yOff = 0,
 	xOffZoom = 0, yOffZoom = 0,
     grid = true;
 // Cells
-let alive = [];
-let nxt = [];
+let alive = new quadTree();
 // Mouse
 let draggingmouse=false;
 let mbutton=-1;
