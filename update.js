@@ -1,6 +1,3 @@
-let memo = {};
-let N = 0;
-
 class quadTree{
 	this.b = {};
 	function eq(f){
