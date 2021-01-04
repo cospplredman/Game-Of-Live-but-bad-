@@ -19,11 +19,11 @@ function loop(){
 		yOff = tmp[1] * px + (screenctx.canvas.height/2)
 	}
 	screenctx.fillStyle = "#ffffff";
-	for(let i = 0; i != alive.length; i++){
-		let x = (alive[i][0]*px), y = (alive[i][1]*px);
-		if(x >= -xOff-px && x <= screenctx.canvas.width - xOff && y >= -yOff-px && y <= screenctx.canvas.height - yOff)
-			screenctx.fillRect(x + xOff, y + yOff,px,px);
-	}
+	//todo display cells
+	
+	
+	
+	//
 	
 	screenctx.fillStyle = "#999999";
 	if(!panmode) 
