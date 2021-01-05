@@ -13,7 +13,7 @@ function attemptEditGrid() {
 		switch(mbutton){
 			case 2:
 				//todo remove cells
-				alive.set(xTmp, yTmp, false);
+				alive.set(xTmp, yTmp, undefined);
 			break;
 			case 0:
 				//todo add cells
